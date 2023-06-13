@@ -3,7 +3,10 @@ module.exports = {
   content: ["./*.{html,js}"],
   theme: {
     extend: {},
-    
+    colors : {
+      'ineuron': '#233C7B',
+    },
+
     screens: {
       'sm': '640px',
       // => @media (min-width: 640px) { ... }

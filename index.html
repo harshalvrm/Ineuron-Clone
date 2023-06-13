@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./dist/output.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <!-- <script src="https://cdn.tailwindcss.com?plugins=forms,typography,aspect-ratio,line-clamp"></script> -->
 </head>
 
@@ -42,44 +43,49 @@
 <body>
     <main>
 
-        <h1 class="font-bold underline bg-green-500">
-            Hello world!
-        </h1>
-
         <!-- Navigation Section -->
-        <nav>
-            <div class="upperNav">
+        <nav class="p-4">
+            <div class="upperNav flex justify-around">
                 <div class="logo">
-                    <img src="https://ineuron.ai/images/ineuron-logo.png" alt="logo">
+                    <img src="./Assets/ineuron-logo.png" class="w-36" alt="logo">
                 </div>
 
-                <div class="searchBar">
-                    <input type="text" placeholder="What do you want to learn?">
+                <div class="searchBar bg-gray-500">
+                    <input type="text" class="w-64" placeholder="What do you want to learn?">
                 </div>
 
-                <div class="signUp"></div>
+                <div class="buttons flex">
+                    <div class="signUp w-24 rounded flex items-center justify-center text-[#233c7b]">
+                        <button class="rounded-none ">Sign Up</button>
+                    </div>
 
-                <div class="signIn"></div>
+                    <div class="signIn w-24 bg-ineuron rounded flex items-center justify-center text-[#fff]">
+                        <button>Sign In</button>
+                    </div>
+                </div>
 
             </div>
 
-            <div class="lowerNav">
-                <div class="options">Courses</div>
-                
-                <div class="options">One Neuron</div>
-                
-                <div class="options">Neuro Lab</div>
-                
-                <div class="options">Job Portal</div> 
+            <div class="lowerNav bg-slate-300 flex items-center justify-center p-8">
+                <div class="flex justify-around w-10/12">
+                    <div class="options">Courses <i class="fa-solid fa-angle-down"></i></div>
+                    
+                    <div class="options">One Neuron</div>
+                    
+                    <div class="options">Neuro Lab</div>
+                    
+                    <div class="options">Job Portal</div> 
 
-                <div class="options">Internship Portal</div>
+                    <div class="options">Internship Portal</div>
 
-                <div class="options">Become an affiliate</div>
+                    <div class="options">Become an affiliate</div>
 
-                <div class="options">Hall of fame</div>
+                    <div class="options">Hall of fame</div>
 
-                <div class="options">Company</div>
+                    <div class="options">Company</div>
+                </div>
             </div>
+            
         </nav>
 
 
@@ -98,10 +104,6 @@
         <!--  Products -->
         <!--  Partnered Institutions -->
         <!--  Footer -->
-
-
-      <!-- Navigation Section -->
-      <nav></nav>
 
 
     </main>
