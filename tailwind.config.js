@@ -3,27 +3,35 @@ module.exports = {
   content: ["./*.{html,js}"],
   theme: {
     extend: {},
+
     colors : {
-      'ineuron': '#233C7B',
+      'ineuron-bg': '#233C7B',
     },
 
     screens: {
-      'sm': '640px',
+
+      'xxs': '343px',
+
+      'xs': '500px',
+      
+      'sm': '527px',
       // => @media (min-width: 640px) { ... }
 
-      'md': '768px',
+      'md': '796px',
       // => @media (min-width: 768px) { ... }
 
       'lg': '1024px',
       // => @media (min-width: 1024px) { ... }
 
-      'xl': '1280px',
+      'xl': '1200px',
       // => @media (min-width: 1280px) { ... }
 
-      '2xl': '1536px',
+      '2xl': '1440px',
       // => @media (min-width: 1536px) { ... }
     }
   },
-  plugins: [],
+  plugins: [
+    require('flowbite/plugin-windicss')
+  ],
 }
 
