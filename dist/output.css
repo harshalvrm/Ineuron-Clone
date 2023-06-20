@@ -534,6 +534,10 @@ video {
   border-width: 0;
 }
 
+.static {
+  position: static;
+}
+
 .absolute {
   position: absolute;
 }
@@ -566,8 +570,28 @@ video {
   top: 50%;
 }
 
+.top-64 {
+  top: 16rem;
+}
+
 .z-30 {
   z-index: 30;
+}
+
+.mt-16 {
+  margin-top: 4rem;
+}
+
+.mt-96 {
+  margin-top: 24rem;
+}
+
+.mt-6 {
+  margin-top: 1.5rem;
+}
+
+.mt-64 {
+  margin-top: 16rem;
 }
 
 .block {
@@ -650,6 +674,10 @@ video {
 
 .cursor-pointer {
   cursor: pointer;
+}
+
+.flex-col {
+  flex-direction: column;
 }
 
 .items-center {
